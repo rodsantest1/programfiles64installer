@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define WpfApp1_TargetDir=$(var.WpfApp1.TargetDir)?>
 	<Product Id="*" Name="SetupProject1" Language="1033" Version="1.0.0.0" Manufacturer="RCS" UpgradeCode="68c32f22-6310-415f-abb5-2027e3825dfc">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
@@ -25,6 +25,12 @@
 			<!-- <Component Id="ProductComponent"> -->
 				<!-- TODO: Insert files, registry keys, and other resources here. -->
 			<!-- </Component> -->
+			<Component Id="WpfApp1.exe" Guid="7cb2f935-47b4-4df8-9112-742b3f6c8569">
+			  <File Id="WpfApp1.exe" Name="WpfApp1.exe" Source="$(var.WpfApp1_TargetDir)WpfApp1.exe" />
+			</Component>
+			<Component Id="WpfApp1.exe.config" Guid="66fdfbdd-5089-4fc9-9742-30a0d914b738">
+			  <File Id="WpfApp1.exe.config" Name="WpfApp1.exe.config" Source="$(var.WpfApp1_TargetDir)WpfApp1.exe.config" />
+			</Component>
 		</ComponentGroup>
 	</Fragment>
 </Wix>
