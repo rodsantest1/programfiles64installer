@@ -7,26 +7,39 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SetupProject1", "SetupProject1\SetupProject1.wixproj", "{F062534B-FD11-49E0-BC1B-4154E7843990}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5ED2B722-EEC9-43A5-AC9A-989F54CCA1F8}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Debug|x64.ActiveCfg = Debug|x64
+		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Debug|x64.Build.0 = Debug|x64
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Debug|x86.Build.0 = Debug|Any CPU
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Release|x64.ActiveCfg = Release|x64
+		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Release|x64.Build.0 = Release|x64
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6F3E601-0BFC-499E-AEDA-200212C630AC}.Release|x86.Build.0 = Release|Any CPU
 		{F062534B-FD11-49E0-BC1B-4154E7843990}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F062534B-FD11-49E0-BC1B-4154E7843990}.Debug|x64.ActiveCfg = Debug|x86
 		{F062534B-FD11-49E0-BC1B-4154E7843990}.Debug|x86.ActiveCfg = Debug|x86
 		{F062534B-FD11-49E0-BC1B-4154E7843990}.Debug|x86.Build.0 = Debug|x86
 		{F062534B-FD11-49E0-BC1B-4154E7843990}.Release|Any CPU.ActiveCfg = Release|x86
+		{F062534B-FD11-49E0-BC1B-4154E7843990}.Release|x64.ActiveCfg = Release|x86
 		{F062534B-FD11-49E0-BC1B-4154E7843990}.Release|x86.ActiveCfg = Release|x86
 		{F062534B-FD11-49E0-BC1B-4154E7843990}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
