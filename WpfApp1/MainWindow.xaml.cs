@@ -23,6 +23,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            Status.Text = $"Is this 64-bit process? Answer: {Environment.Is64BitProcess}";
         }
     }
 }
