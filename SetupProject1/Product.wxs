@@ -21,10 +21,6 @@
 
 	<Fragment>
 		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
-			<!-- <Component Id="ProductComponent"> -->
-				<!-- TODO: Insert files, registry keys, and other resources here. -->
-			<!-- </Component> -->
 			<Component Id="WpfApp1.exe" Guid="7cb2f935-47b4-4df8-9112-742b3f6c8569">
 			  <File Id="WpfApp1.exe" Name="WpfApp1.exe" Source="$(var.WpfApp1_TargetDir)WpfApp1.exe" />
 			</Component>
